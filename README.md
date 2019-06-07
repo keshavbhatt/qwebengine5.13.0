@@ -31,13 +31,17 @@ I configured it using various tools to run according to provided libraries and o
 So all i did is dumped it into snap package with some other required libraries using snapcraft with `desktop-gtk3` desktop-helper.
 
 # Use of the project
-The project can help so many people who want try build Apps on Latest Qt framework in market . i.e, Qt 5.13.0.rc which is not even released yet. 
-WebEngine module was chosen because i want see it efficient than Electron and NodeWebkit in all aspects,(Memory consumption to rich Qt APIs)
-Developers can build better apps with with Qt and Webengine which is based on Chromium. so its like Chromium + Qt .
+The project can help so many people who want try build Apps on Latest Qt framework in market . i.e, Qt 5.13.0.rc which is not even released yet (Release candidate going to release soon). 
+WebEngine module was chosen because it efficient than Electron, NodeWebkit (nwjs) and other chrommium based frameworks in all aspects,(Memory consumption to support for rich Qt APIs)
+Developers can build better apps with with Qt and Webengine which is based on Chromium.
 
  
 
 <b id="f1">1</b> [# QFileDialog - not rendered (Ubuntu, PyCharm installed using snap)](https://github.com/ubuntu/snapcraft-desktop-helpers/issues/167) [↩](#a1)
 
 <b id="f2">2</b> [# File open/save dialogs show $SNAP_USER_DATA instead of $HOME when selecting the home shortcut](https://bugreports.qt.io/browse/PYSIDE-912) [↩](#a2)
+
+# Other Refrences
+ 1. [Firefox snapcraft.yaml](https://github.com/mozilla/gecko-dev/blob/master/taskcluster/docker/firefox-snap/snapcraft.yaml.in)
+ 2. [Chromium snapcraft.yaml](https://git.launchpad.net/~chromium-team/chromium-browser/+git/snap-from-source/tree/snapcraft.yaml?h=stable)
 
