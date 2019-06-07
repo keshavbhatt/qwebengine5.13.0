@@ -13,8 +13,8 @@ QWebEngine works fine as expected.
 
 # Current issues
 
- 1. File Dialog (QFileDialog class) is not working. (Not opening any dialog when app is packaged in snap confine). It works fine without confinements. You can check it by running appdir/usr/bin/simplebrowser clicking File->Open or Webpage's context menu "Save page" action.  
-**This issues has been reported by many snapcrafters before [^1] [^2]**
+ 1. File Dialog (QFileDialog class) is not working. (Not opening any dialog when app is packaged in snap confine). It works fine without confinements. You can check it by running appdir/usr/bin/simplebrowser clicking File->Open or Webpage's context menu "Save page" action.
+**This issues has been reported by many snapcrafters before  <sup id="a1">[1](#f1)</sup>  <sup id="a2">[2](#f2)</sup>
 
 # Debug snap package
 while running the `webengine` run the following in another terminal to watch apparmor denials.
@@ -31,6 +31,8 @@ The project can help so many people who want try build Apps on Latest Qt framewo
 WebEngine module was chosen because i want see it efficient than Electron and NodeWebkit in all aspects,(Memory consumption to rich Qt APIs)
 Developers can build better apps with with Qt and Webengine which is based on Chromium. so its like Chromium + Qt .  
 
-[^1]: [# QFileDialog - not rendered (Ubuntu, PyCharm installed using snap)](https://github.com/ubuntu/snapcraft-desktop-helpers/issues/167)
-[^2]: [# File open/save dialogs show $SNAP_USER_DATA instead of $HOME when selecting the home shortcut](https://bugreports.qt.io/browse/PYSIDE-912)
+ 
+
+<b id="f1">1</b> [# QFileDialog - not rendered (Ubuntu, PyCharm installed using snap)](https://github.com/ubuntu/snapcraft-desktop-helpers/issues/167) [↩](#a1)
+<b id="f2">2</b> [# File open/save dialogs show $SNAP_USER_DATA instead of $HOME when selecting the home shortcut](https://bugreports.qt.io/browse/PYSIDE-912) [↩](#a2)
 
