@@ -1,6 +1,9 @@
 # QWebEngine Module from Qt 5.13.0rc with Proprietary codecs support
 We try to Snap package Qt app built using QWebEngine module from Qt 5.13.0rc with proprietary codec support. (which is not yet released in market)
 
+# Preview
+![enter image description here](https://pbs.twimg.com/media/D8dvylyUEAE_pJa.jpg:large)
+
 # How to snap the app
 
  1. extract appdir.zip 
