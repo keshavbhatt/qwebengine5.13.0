@@ -26,14 +26,14 @@ while running the `webengine` run the following in another terminal to watch app
     sudo snappy-debug.security scanlog
 
 # What is inside appdir ?
-appdir contains application containing qt app simplebrowser (from examples of qwebenginewidgets).
-I configured it using various tools to run according to provided libraries and other required stuffs by qt.
+appdir contains deployed qt app simplebrowser (from examples of qwebenginewidgets).
+I configured and managed to deploy it using various tools to run according to provided libraries and other required stuffs by qt.
 So all i did is dumped it into snap package with some other required libraries using snapcraft with `desktop-gtk3` desktop-helper.
 
 # Use of the project
 The project can help so many people who want try build Apps on Latest Qt framework in market . i.e, Qt 5.13.0.rc which is not even released yet (Release candidate going to release soon). 
 WebEngine module was chosen because it efficient than Electron, NodeWebkit (nwjs) and other chrommium based frameworks in all aspects,(Memory consumption to support for rich Qt APIs)
-Developers can build better apps with with Qt and Webengine which is based on Chromium.
+Developers can build better apps with Qt and Webengine which is based on Chromium.
 
  
 
